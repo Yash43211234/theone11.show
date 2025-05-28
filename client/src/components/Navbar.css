@@ -1,0 +1,52 @@
+.button-bar {
+  
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  background: var(--primary-pink);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Logo and buttons flex */
+.logo, .nav-buttons, .right-space {
+  flex: 1;
+}
+
+.logo img {
+  height: 220px;
+  width: 220px;
+  object-fit: contain;
+}
+
+/* Navigation buttons container */
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Empty div to balance right side */
+.right-space {
+  /* no content */
+}
+
+/* Media Query: for smaller screens, stack nav items vertically */
+@media (max-width: 600px) {
+  .button-bar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .logo, .nav-buttons, .right-space {
+    flex: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+  .nav-buttons {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}

@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "theOne11 Show",
+  "name": "Create theOne11 Show",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "creatous_collective_media_log.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "creatous_collective_media_log.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "creatous_collective_media_log.png",
       "type": "image/png",
       "sizes": "512x512"
     }
